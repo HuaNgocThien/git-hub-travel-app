@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Cu Chi Tunels" ,
+        "city": "Ho Chi Minh",
+        "country": "Viet Nam",
+        "entry_price": "$4.9",
+        "address":"Phu Hiep, Cu Chi, Ho Chi Minh City" ,
+        "opening_time":"7:00 AM" ,
+        "closing_time":"5:00 PM " ,
+        "categories": ["popular", "recomemnded"],
+        "images" : [
+            "https://www.traveltalktours.com/wp-content/uploads/2021/12/AdobeStock_241465987-2-1024x583.jpeg",
+            "https://lilystravelagency.com/wp-content/uploads/2022/08/Cu-Chi-Tunnels.jpg",
+            "https://saigonriders.com/wp-content/uploads/2018/11/please-focus-on-your-shoot-in-the-cu-chi-firing-range.png",
+            "https://www.vietnam-tour.biz/wp-content/uploads/2019/05/An-Insider-Guide-to-Cu-Chi-Tunnels.jpg",
+            "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/fb/9b/d2.jpg",
+            "https://lp-cms-production.imgix.net/2019-06/4e4b9a4d11c1b519c9922029fbcec7b8-cu-chi-tunnels.jpg?auto=format&w=640&h=360&ar=16:9&fit=crop&crop=center&format=auto&q=75",
+            "https://storage.googleapis.com/inspitrip-blog/global/2017/11/DSC_1445.jpg",
+            "https://cdn.getyourguide.com/img/tour/638d9a21758ff.jpeg/146.jpg"
+        ],
+        "coordinates": {
+            "lat": "11.1416" ,
+            "lon":"106.4616"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Independence Palace" ,
+        "city": "Ho Chi Minh",
+        "country": "Viet Nam",
+        "entry_price": "$3",
+        "address":"135 Nam Ky Khoi Nghia Street, District 1, Ho Chi Minh City, Vietnam" ,
+        "opening_time":"8:00 AM" ,
+        "closing_time":"3:30 PM " ,
+        "categories": ["popular", "most_visited"],
+        "images" : [
+            "https://storage.googleapis.com/fvallimages/uploads/attraction/reunification-palace-2133.jpg",
+            "https://lp-cms-production.imgix.net/2019-06/29deee6dbc62127614badd2519e56fe2-reunification-palace.jpg",
+            "https://www.theblondtravels.com/wp-content/uploads/2016/06/ho-chi-minh-city-independence-palace-outside.jpg",
+            "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/6a/98.jpg",
+            "https://www.tripsavvy.com/thmb/arAvKl_n2iQV7m-ANu3YKPKMEZE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/independence_palace1-57c65abb3df78cc16e6e89e0.jpg",
+            "https://authentiktravel.com/media/blog/tourist%20attraction%20in%20sai%20gon%20-%20Independent%20palace.jpg",
+            "https://scootersaigontour.com/wp-content/uploads/2015/06/Independence-Palace-gate-1.jpg",
+            "https://cdn.baoquocte.vn/stores/news_dataimages/dangtuan/042017/27/10/croped/101316_llkr.jpg?170503031609"
+        ],
+        "coordinates": {
+            "lat": "10.7770" ,
+            "lon":"106.6953"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Ho Chi Minh City Hall" ,
+        "city": "Ho Chi Minh",
+        "country": "Viet Nam",
+        "entry_price": "Not Open",
+        "address":"Nguyen Hue Boulevard, Ho Chi Minh City, Viet Nam" ,
+        "opening_time":"N/A" ,
+        "closing_time":"N/A" ,
+        "categories": ["popular", "most_viewed"],
+        "images" : [
+            "https://youimg1.tripcdn.com/target/100o1f000001gp5b27F3E.jpg?proc=source%2Ftrip",
+            "https://d13jio720g7qcs.cloudfront.net/images/destinations/origin/5cac5ecfede3a.png",
+            "https://havecamerawilltravel.com/places/wp-content/uploads/sites/3/2016/11/ho-chi-minh-city-ho-chi-minh-city-hall-in-saigon-at-night-06-copyright-havecamerawilltravel-com.jpg",
+            "https://travelsaigon.org/wp-content/uploads/ho-chi-minh-square-cityhall-2.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-04.jpg/2560px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-04.jpg",
+            "https://live.staticflickr.com/8527/8460905738_7c97506bae_b.jpg",
+            "https://cdnimgen.vietnamplus.vn/uploaded/wbxx/2022_03_21/hcm_city.jpg",
+            "https://1.bp.blogspot.com/-FBIS5H7Nrks/XF6m2Vy2cCI/AAAAAAAA95w/LT05xf2MLBY5shOFxfRoee-WzS-XDhBOgCLcBGAs/s1600/city-hall-saigon-ho-chi-minh-vietnam.JPG"
+        ],
+        "coordinates": {
+            "lat": "10.7766" ,
+            "lon":"106.7010"
+        }
+    },
+    {
+        "id": 4,
+        "name": "War Remnants Museum" ,
+        "city": "Ho Chi Minh",
+        "country": "Viet Nam",
+        "entry_price": "$1.75",
+        "address":"28 Vo Van Tan Ward 6, District 3, Ho Chi Minh City, Vietnam" ,
+        "opening_time":"7:30 AM" ,
+        "closing_time":"5:30 PM " ,
+        "categories": ["recomemnded", "trending"],
+        "images" : [
+            "https://www.itourvn.com/images/easyblog_articles/175/war-remnants-museu_20210305-095756_1.jpg",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/9e/ce/a3/war-remnants-museum.jpg?w=1200&h=-1&s=1",
+            "https://www.itourvn.com/images/easyblog_images/2021/march/war_remnants_museum/war-remnants-museum-historic-truths-2.jpg",
+            "https://adventurejourney.vn/upload/image/news/war-museum-vietnam.jpg",
+            "https://journeyonair.com/sites/default/files/inline-images/indoor-exhibition-war-museum-vietnam.jpg",
+            "https://c8.alamy.com/comp/BY28GT/inside-photos-of-war-remnants-museum-american-war-saigon-ho-chi-minh-BY28GT.jpg",
+            "https://authentiktravel.com/media/ckeditor/War%20Remnants%20Museum%20saigon%20exhibition.jpg",
+            "https://statics.vinpearl.com/war-remnants-museum-10_1653703865.jpg"
+        ],
+        "coordinates": {
+            "lat": "10.7795" ,
+            "lon":"106.6921"
+        }
+    }
+]

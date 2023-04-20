@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    margin: 32,
+    flex: 1,
   },
   subTitle: {
     fontSize: 20,

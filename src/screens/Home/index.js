@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {SafeAreaView, ScrollView, Text, View} from 'react-native';
+import {FlatList, SafeAreaView, View} from 'react-native';
 import Title from '../../components/Title';
 import styles from './styles';
 import Categories from '../../components/Categories';
@@ -16,37 +16,50 @@ const Home = () => {
   }, []);
 
   return (
-    <SafeAreaView>
-      <View style={styles.container}>
-        <Title text="Where do" style={{fontWeight: 'normal'}} />
-        <Title text="you want to go?" />
+    <SafeAreaView style={styles.container}>
+      <FlatList
+        showsVerticalScrollIndicator={false}
+        data={data}
+        numColumns={2}
+        style={{flexGrow: 1}}
+        ListHeaderComponent={
+          <>
+            <View style={{margin: 32}}>
+              <Title text="Where do" style={{fontWeight: 'normal'}} />
+              <Title text="you want to go?" />
 
-        <Title text="Explore Attractions" style={styles.subTitle} />
-
-        <Categories
-          selectedCategory={selectedCategory}
-          onCategoryPress={setSelectedCategory}
-          categories={[
-            'All',
-            'Popular',
-            'Recommended',
-            'Most Viewed',
-            'Most Visited',
-            'Trending',
-          ]}
-        />
-        <ScrollView contentContainerStyle={styles.row}>
-          {data?.map((item, index) => (
-            <AttractionCard
-              key={item.id}
-              style={index % 2 === 0 ? {marginRight: 16} : {}}
-              title={item.name}
-              subTitle={item.city}
-              imgSrc={item.images?.length ? item.images[0] : null}
+              <Title text="Explore Attractions" style={styles.subTitle} />
+            </View>
+            <Categories
+              selectedCategory={selectedCategory}
+              onCategoryPress={setSelectedCategory}
+              categories={[
+                'All',
+                'Popular',
+                'Recommended',
+                'Most Viewed',
+                'Most Visited',
+                'Trending',
+                'Historical',
+              ]}
             />
-          ))}
-        </ScrollView>
-      </View>
+          </>
+        }
+        keyExtractor={item => String(item?.id)}
+        renderItem={({item, index}) => (
+          <AttractionCard
+            key={item.id}
+            style={
+              index % 2 === 0
+                ? {marginRight: 12, marginLeft: 32}
+                : {marginRight: 32}
+            }
+            title={item.name}
+            subTitle={item.city}
+            imgSrc={item.images?.length ? item.images[0] : null}
+          />
+        )}
+      />
     </SafeAreaView>
   );
 };

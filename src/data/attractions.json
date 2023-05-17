@@ -8,7 +8,7 @@
         "address":"Phu Hiep, Cu Chi, Ho Chi Minh City" ,
         "opening_time":"7:00 AM" ,
         "closing_time":"5:00 PM " ,
-        "categories": ["popular", "recomemnded"],
+        "categories": ["Popular", "Recomemnded"],
         "images" : [
             "https://www.traveltalktours.com/wp-content/uploads/2021/12/AdobeStock_241465987-2-1024x583.jpeg",
             "https://lilystravelagency.com/wp-content/uploads/2022/08/Cu-Chi-Tunnels.jpg",
@@ -33,7 +33,7 @@
         "address":"135 Nam Ky Khoi Nghia Street, District 1, Ho Chi Minh City, Vietnam" ,
         "opening_time":"8:00 AM" ,
         "closing_time":"3:30 PM " ,
-        "categories": ["popular", "most_visited"],
+        "categories": ["Popular", "Most Visited"],
         "images" : [
             "https://storage.googleapis.com/fvallimages/uploads/attraction/reunification-palace-2133.jpg",
             "https://lp-cms-production.imgix.net/2019-06/29deee6dbc62127614badd2519e56fe2-reunification-palace.jpg",
@@ -58,7 +58,7 @@
         "address":"Nguyen Hue Boulevard, Ho Chi Minh City, Viet Nam" ,
         "opening_time":"N/A" ,
         "closing_time":"N/A" ,
-        "categories": ["popular", "most_viewed"],
+        "categories": ["Popular", "Most Viewed"],
         "images" : [
             "https://youimg1.tripcdn.com/target/100o1f000001gp5b27F3E.jpg?proc=source%2Ftrip",
             "https://d13jio720g7qcs.cloudfront.net/images/destinations/origin/5cac5ecfede3a.png",
@@ -83,7 +83,7 @@
         "address":"28 Vo Van Tan Ward 6, District 3, Ho Chi Minh City, Vietnam" ,
         "opening_time":"7:30 AM" ,
         "closing_time":"5:30 PM " ,
-        "categories": ["recomemnded", "trending"],
+        "categories": ["Recomemnded", "Trending"],
         "images" : [
             "https://www.itourvn.com/images/easyblog_articles/175/war-remnants-museu_20210305-095756_1.jpg",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/9e/ce/a3/war-remnants-museum.jpg?w=1200&h=-1&s=1",
@@ -108,7 +108,7 @@
         "address":"Phu Hiep, Cu Chi, Ho Chi Minh City" ,
         "opening_time":"7:00 AM" ,
         "closing_time":"5:00 PM " ,
-        "categories": ["popular", "recomemnded"],
+        "categories": ["Popular", "Recomemnded"],
         "images" : [
             "https://www.traveltalktours.com/wp-content/uploads/2021/12/AdobeStock_241465987-2-1024x583.jpeg",
             "https://lilystravelagency.com/wp-content/uploads/2022/08/Cu-Chi-Tunnels.jpg",
@@ -133,7 +133,7 @@
         "address":"135 Nam Ky Khoi Nghia Street, District 1, Ho Chi Minh City, Vietnam" ,
         "opening_time":"8:00 AM" ,
         "closing_time":"3:30 PM " ,
-        "categories": ["popular", "most_visited"],
+        "categories": ["Popular", "Most Visited"],
         "images" : [
             "https://storage.googleapis.com/fvallimages/uploads/attraction/reunification-palace-2133.jpg",
             "https://lp-cms-production.imgix.net/2019-06/29deee6dbc62127614badd2519e56fe2-reunification-palace.jpg",
@@ -158,7 +158,7 @@
         "address":"Nguyen Hue Boulevard, Ho Chi Minh City, Viet Nam" ,
         "opening_time":"N/A" ,
         "closing_time":"N/A" ,
-        "categories": ["popular", "most_viewed"],
+        "categories": ["Popular", "Most Viewed"],
         "images" : [
             "https://youimg1.tripcdn.com/target/100o1f000001gp5b27F3E.jpg?proc=source%2Ftrip",
             "https://d13jio720g7qcs.cloudfront.net/images/destinations/origin/5cac5ecfede3a.png",
@@ -183,7 +183,7 @@
         "address":"28 Vo Van Tan Ward 6, District 3, Ho Chi Minh City, Vietnam" ,
         "opening_time":"7:30 AM" ,
         "closing_time":"5:30 PM " ,
-        "categories": ["recomemnded", "trending"],
+        "categories": ["Recomemnded", "Trending"],
         "images" : [
             "https://www.itourvn.com/images/easyblog_articles/175/war-remnants-museu_20210305-095756_1.jpg",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/9e/ce/a3/war-remnants-museum.jpg?w=1200&h=-1&s=1",

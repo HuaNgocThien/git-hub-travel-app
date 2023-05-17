@@ -5,20 +5,33 @@ import styles from './styles';
 import Categories from '../../components/Categories';
 import AttractionCard from '../../components/AttractionCard';
 import jsonData from '../../data/attractions.json';
+import categories from '../../data/categories.json';
+
+const ALL = 'All';
 
 const Home = () => {
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState(ALL);
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    console.log('jsondata :>> ', jsonData);
     setData(jsonData);
   }, []);
+
+  useEffect(() => {
+    if (selectedCategory === ALL) {
+      setData(jsonData);
+    } else {
+      const filteredData = jsonData?.filter(item =>
+        item?.categories?.includes(selectedCategory),
+      );
+
+      setData(filteredData);
+    }
+  }, [selectedCategory]);
 
   return (
     <SafeAreaView style={styles.container}>
       <FlatList
-        showsVerticalScrollIndicator={false}
         data={data}
         numColumns={2}
         style={{flexGrow: 1}}
@@ -27,21 +40,12 @@ const Home = () => {
             <View style={{margin: 32}}>
               <Title text="Where do" style={{fontWeight: 'normal'}} />
               <Title text="you want to go?" />
-
               <Title text="Explore Attractions" style={styles.subTitle} />
             </View>
             <Categories
               selectedCategory={selectedCategory}
               onCategoryPress={setSelectedCategory}
-              categories={[
-                'All',
-                'Popular',
-                'Recommended',
-                'Most Viewed',
-                'Most Visited',
-                'Trending',
-                'Historical',
-              ]}
+              categories={[ALL, ...categories]}
             />
           </>
         }

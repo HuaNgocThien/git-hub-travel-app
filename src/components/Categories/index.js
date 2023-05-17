@@ -8,9 +8,8 @@ const Categories = ({categories, selectedCategory, onCategoryPress}) => {
       horizontal
       data={categories}
       keyExtractor={item => String(item)}
-      style={{marginRight: -32}}
       showsHorizontalScrollIndicator={false}
-      renderItem={({item}) => {
+      renderItem={({item, index}) => {
         const selected = selectedCategory === item;
 
         return (
@@ -19,6 +18,7 @@ const Categories = ({categories, selectedCategory, onCategoryPress}) => {
             style={[
               styles.itemContainer,
               selected ? styles.selectedItemContainer : {},
+              index === 0 ? {marginLeft: 32} : {},
             ]}>
             <Text style={[styles.item, selected ? styles.selectedItem : {}]}>
               {item}

@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import styles from './styles';
 import Title from '../../components/Title';
+import InfoCard from '../../components/InfoCard';
 
 const AttractionDetails = ({navigation, route}) => {
   const {item} = route?.params || {};
@@ -58,12 +59,16 @@ const AttractionDetails = ({navigation, route}) => {
         </Pressable>
       </ImageBackground>
       <View style={styles.headerContainer}>
-        <View style={styles.textContainer}>
+        <View>
           <Title style={styles.title} text={item?.name} />
           <Text style={styles.city}>{item?.city}</Text>
         </View>
         <Title style={styles.title} text={item?.entry_price} />
       </View>
+      <InfoCard
+        text={item?.address}
+        icon={require('../../assets/location_circle.png')}
+      />
     </SafeAreaView>
   );
 };

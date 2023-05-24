@@ -1,10 +1,10 @@
 import React from 'react';
-import {Image, Text, View} from 'react-native';
+import {Image, Text, View, TouchableOpacity} from 'react-native';
 import styles from './styles';
 
-const AttractionCard = ({imgSrc, title, subTitle, style}) => {
+const AttractionCard = ({imgSrc, title, subTitle, style, onPress}) => {
   return (
-    <View style={styles.card}>
+    <TouchableOpacity onPress={onPress} style={[styles.card, style]}>
       <Image style={styles.image} source={{uri: imgSrc}} />
       <Text style={styles.title}>{title}</Text>
       <View style={styles.row}>
@@ -14,7 +14,7 @@ const AttractionCard = ({imgSrc, title, subTitle, style}) => {
         />
         <Text style={styles.subtitle}>{subTitle}</Text>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 export default React.memo(AttractionCard);

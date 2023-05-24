@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {FlatList, SafeAreaView, View} from 'react-native';
+import {FlatList, SafeAreaView, View, Text} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 import Title from '../../components/Title';
 import styles from './styles';
 import Categories from '../../components/Categories';
@@ -10,6 +11,7 @@ import categories from '../../data/categories.json';
 const ALL = 'All';
 
 const Home = () => {
+  const navigation = useNavigation();
   const [selectedCategory, setSelectedCategory] = useState(ALL);
   const [data, setData] = useState([]);
 
@@ -35,6 +37,9 @@ const Home = () => {
         data={data}
         numColumns={2}
         style={{flexGrow: 1}}
+        ListEmptyComponent={
+          <Text style={styles.emptyText}>No items found.</Text>
+        }
         ListHeaderComponent={
           <>
             <View style={{margin: 32}}>
@@ -54,10 +59,11 @@ const Home = () => {
           <AttractionCard
             key={item.id}
             style={
-              index % 2 === 0
+              index % 2 == 0
                 ? {marginRight: 12, marginLeft: 32}
                 : {marginRight: 32}
             }
+            onPress={() => navigation.navigate('AttractionDetails')}
             title={item.name}
             subTitle={item.city}
             imgSrc={item.images?.length ? item.images[0] : null}

@@ -4,7 +4,7 @@ const {width} = Dimensions.get('window');
 const styles = StyleSheet.create({
   card: {
     marginRight: 6,
-    marginLeft: 25,
+    marginLeft: 15,
     marginTop: 8,
     marginBottom: 12,
     padding: 4,

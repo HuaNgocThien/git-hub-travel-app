@@ -10,7 +10,7 @@
         "closing_time":"5:00 PM " ,
         "categories": ["Popular", "Recomemnded"],
         "images" : [
-            "https://www.traveltalktours.com/wp-content/uploads/2021/12/AdobeStock_241465987-2-1024x583.jpeg",
+            "https://statics.vinpearl.com/cu-chi-tunnels-9_1651073728.jpg",
             "https://lilystravelagency.com/wp-content/uploads/2022/08/Cu-Chi-Tunnels.jpg",
             "https://saigonriders.com/wp-content/uploads/2018/11/please-focus-on-your-shoot-in-the-cu-chi-firing-range.png",
             "https://www.vietnam-tour.biz/wp-content/uploads/2019/05/An-Insider-Guide-to-Cu-Chi-Tunnels.jpg",
@@ -51,7 +51,7 @@
     },
     {
         "id": 3,
-        "name": "Ho Chi Minh City Hall" ,
+        "name": "HCM City Hall" ,
         "city": "Ho Chi Minh",
         "country": "Viet Nam",
         "entry_price": "Not Open",

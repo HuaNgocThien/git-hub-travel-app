@@ -1,24 +1,71 @@
-import {StyleSheet} from 'react-native';
+import {StyleSheet, Dimensions} from 'react-native';
 
+const {height} = Dimensions.get('window');
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: 'white',
+    margin: 32,
   },
-  subTitle: {
-    fontSize: 20,
-    color: 'black',
-    marginTop: 40,
+  mainImage: {
+    width: '100%',
+    height: height / 2,
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
-  row: {
+  header: {
+    width: '100%',
     flexDirection: 'row',
-    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
-  emptyText: {
-    textAlign: 'center',
-    marginTop: 24,
-    fontSize: 22,
-    color: 'rgba(0,0,0,0.5)',
+  icon: {
+    width: 36,
+    height: 36,
+    margin: 8,
+  },
+  footer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderRadius: 15,
+    backgroundColor: 'rgba(256, 256, 256,  0.35)',
+    margin: 16,
+    paddingHorizontal: 8,
+  },
+  miniImage: {
+    width: 40,
+    height: 40,
+    margin: 8,
+    borderRadius: 10,
+  },
+  moreImages: {
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize: 20,
+  },
+  moreImagesContainer: {
+    position: 'absolute',
+    backgroundColor: 'rgba(0,0,0,0.38)',
+    width: 40,
+    height: 40,
+    top: 8,
+    left: 7,
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  headerContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  title: {
+    color: 'black',
+    fontSize: 25,
+  },
+  city: {
+    fontSize: 20,
+    fontWeight: '400',
+    marginTop: 8,
   },
 });
 

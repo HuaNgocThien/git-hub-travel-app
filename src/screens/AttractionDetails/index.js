@@ -13,6 +13,7 @@ import Title from '../../components/Title';
 import InfoCard from '../../components/InfoCard';
 import MapView, {Marker} from 'react-native-maps';
 import Share from 'react-native-share';
+import ImgToBase64 from 'react-native-image-base64';
 
 const AttractionDetails = ({navigation, route}) => {
   const {item} = route?.params || {};
@@ -36,18 +37,28 @@ const AttractionDetails = ({navigation, route}) => {
     navigation.navigate('Gallery', {images: item?.images});
   };
 
-  const onShare = () => {
-    Share.open({
-      title: item?.name,
-      message:
-        'Hey, I wanted to share with you this amazing good job attraction !!!',
-    })
-      .then(res => {
-        console.log(res);
+  const onShare = async () => {
+    try {
+      const imageWithoutParams = mainImage?.split('?')[0];
+      const imageParts = imageWithoutParams?.split('-');
+      const imageExtension = imageParts[imageParts?.length - 1];
+      console.log('ImageExtension :>>', imageExtension);
+      const base64Image = await ImgToBase64.getBase64String(mainImage);
+      Share.open({
+        title: item?.name,
+        message:
+          'Hey, I wanted to share with you this amazing good job attraction !!!',
+        url: `data:image/${imageExtension || 'jpg'};base64,${base64Image}`,
       })
-      .catch(err => {
-        err && console.log(err);
-      });
+        .then(res => {
+          console.log(res);
+        })
+        .catch(err => {
+          err && console.log(err);
+        });
+    } catch (e) {
+      console.log('Sharing error :>>', e);
+    }
   };
 
   return (

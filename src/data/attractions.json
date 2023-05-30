@@ -20,8 +20,8 @@
             "https://cdn.getyourguide.com/img/tour/638d9a21758ff.jpeg/146.jpg"
         ],
         "coordinates": {
-            "lat": "11.1416" ,
-            "lon":"106.4616"
+            "lat": 11.1416 ,
+            "lon": 106.4616
         }
     },
     {
@@ -45,8 +45,8 @@
             "https://cdn.baoquocte.vn/stores/news_dataimages/dangtuan/042017/27/10/croped/101316_llkr.jpg?170503031609"
         ],
         "coordinates": {
-            "lat": "10.7770" ,
-            "lon":"106.6953"
+            "lat": 10.7770 ,
+            "lon": 106.6953
         }
     },
     {
@@ -54,10 +54,10 @@
         "name": "HCM City Hall" ,
         "city": "Ho Chi Minh",
         "country": "Viet Nam",
-        "entry_price": "Not Open",
+        "entry_price": "0$",
         "address":"Nguyen Hue Boulevard, Ho Chi Minh City, Viet Nam" ,
-        "opening_time":"N/A" ,
-        "closing_time":"N/A" ,
+        "opening_time":"7:00 AM" ,
+        "closing_time":"5:00 PM " ,
         "categories": ["Popular", "Most Viewed"],
         "images" : [
             "https://youimg1.tripcdn.com/target/100o1f000001gp5b27F3E.jpg?proc=source%2Ftrip",
@@ -70,8 +70,8 @@
             "https://1.bp.blogspot.com/-FBIS5H7Nrks/XF6m2Vy2cCI/AAAAAAAA95w/LT05xf2MLBY5shOFxfRoee-WzS-XDhBOgCLcBGAs/s1600/city-hall-saigon-ho-chi-minh-vietnam.JPG"
         ],
         "coordinates": {
-            "lat": "10.7766" ,
-            "lon":"106.7010"
+            "lat": 10.7766 ,
+            "lon": 106.7010
         }
     },
     {
@@ -95,8 +95,8 @@
             "https://statics.vinpearl.com/war-remnants-museum-10_1653703865.jpg"
         ],
         "coordinates": {
-            "lat": "10.7795" ,
-            "lon":"106.6921"
+            "lat": 10.7795 ,
+            "lon": 106.6921
         }
     },
     {
@@ -120,8 +120,8 @@
             "https://cdn.getyourguide.com/img/tour/638d9a21758ff.jpeg/146.jpg"
         ],
         "coordinates": {
-            "lat": "11.1416" ,
-            "lon":"106.4616"
+            "lat": 11.1416 ,
+            "lon": 106.4616
         }
     },
     {
@@ -145,8 +145,8 @@
             "https://cdn.baoquocte.vn/stores/news_dataimages/dangtuan/042017/27/10/croped/101316_llkr.jpg?170503031609"
         ],
         "coordinates": {
-            "lat": "10.7770" ,
-            "lon":"106.6953"
+            "lat": 10.7770 ,
+            "lon": 106.6953
         }
     },
     {
@@ -154,10 +154,10 @@
         "name": "Ho Chi Minh City Hall" ,
         "city": "Ho Chi Minh",
         "country": "Viet Nam",
-        "entry_price": "Not Open",
+        "entry_price": "0$",
         "address":"Nguyen Hue Boulevard, Ho Chi Minh City, Viet Nam" ,
-        "opening_time":"N/A" ,
-        "closing_time":"N/A" ,
+        "opening_time":"7:00 AM" ,
+        "closing_time":"5:00 PM " ,
         "categories": ["Popular", "Most Viewed"],
         "images" : [
             "https://youimg1.tripcdn.com/target/100o1f000001gp5b27F3E.jpg?proc=source%2Ftrip",
@@ -170,8 +170,8 @@
             "https://1.bp.blogspot.com/-FBIS5H7Nrks/XF6m2Vy2cCI/AAAAAAAA95w/LT05xf2MLBY5shOFxfRoee-WzS-XDhBOgCLcBGAs/s1600/city-hall-saigon-ho-chi-minh-vietnam.JPG"
         ],
         "coordinates": {
-            "lat": "10.7766" ,
-            "lon":"106.7010"
+            "lat": 10.7766 ,
+            "lon": 106.7010
         }
     },
     {
@@ -195,8 +195,8 @@
             "https://statics.vinpearl.com/war-remnants-museum-10_1653703865.jpg"
         ],
         "coordinates": {
-            "lat": "10.7795" ,
-            "lon":"106.6921"
+            "lat": 10.7795 ,
+            "lon": 106.6921
         }
     }
 ]

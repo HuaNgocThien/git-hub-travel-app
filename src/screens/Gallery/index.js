@@ -1,11 +1,35 @@
 import React, {useEffect, useState} from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import {
+  SafeAreaView,
+  Image,
+  View,
+  FlatList,
+  TouchableOpacity,
+} from 'react-native';
 import styles from './styles';
 
-const Gallery = () => {
+const Gallery = ({navigation, route}) => {
+  const {images} = route?.params || {};
+  const onBack = () => {
+    navigation.goBack();
+  };
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Gallery</Text>
+      <View>
+        <FlatList
+          style={{marginBottom: 24}}
+          data={images}
+          renderItem={({item}) => (
+            <Image source={{uri: item}} style={styles.image} />
+          )}
+        />
+        <TouchableOpacity onPress={onBack} style={styles.backContainer}>
+          <Image
+            source={require('../../assets/back.png')}
+            style={styles.backIcon}
+          />
+        </TouchableOpacity>
+      </View>
     </SafeAreaView>
   );
 };

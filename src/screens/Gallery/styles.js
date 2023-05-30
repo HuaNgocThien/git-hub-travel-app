@@ -4,21 +4,23 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'white',
+    paddingHorizontal: 32,
   },
-  subTitle: {
-    fontSize: 20,
-    color: 'black',
-    marginTop: 40,
-  },
-  row: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-  },
-  emptyText: {
-    textAlign: 'center',
+  image: {
+    width: '100%',
+    height: 400,
+    borderRadius: 20,
+    marginBottom: 20,
     marginTop: 24,
-    fontSize: 22,
-    color: 'rgba(0,0,0,0.5)',
+  },
+  backContainer: {
+    position: 'absolute',
+    margin: 32,
+  },
+  backIcon: {
+    width: 40,
+    height: 40,
+    marginLeft: -25,
   },
 });
 

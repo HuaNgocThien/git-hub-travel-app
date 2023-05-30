@@ -7,12 +7,12 @@ const styles = StyleSheet.create({
     marginTop: 12,
   },
   icon: {
-    width: 40,
-    height: 40,
+    width: 32,
+    height: 32,
   },
   title: {
     fontSize: 12,
-    color: 'black',
+    color: '#000',
     marginHorizontal: 8,
   },
 });

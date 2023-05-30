@@ -12,6 +12,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import AttractionDetails from './src/screens/AttractionDetails';
 import Gallery from './src/screens/Gallery';
+import Map from './src/screens/Map';
 
 const Stack = createStackNavigator();
 
@@ -22,6 +23,7 @@ const App = () => {
         <Stack.Screen component={Home} name="Home" />
         <Stack.Screen component={AttractionDetails} name="AttractionDetails" />
         <Stack.Screen component={Gallery} name="Gallery" />
+        <Stack.Screen component={Map} name="Map" />
       </Stack.Navigator>
     </NavigationContainer>
   );

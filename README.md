@@ -28,4 +28,4 @@ $ npx react-native run-android
 - Open App.tsx in your text editor of choice and edit some lines.
 - Press the R key twice or select Reload from the Developer Menu (Ctrl + M) to see your changes!
 # That's it!
-- Congratulations! You've successfully run and modified your first React Native app.
+- Congratulations! You've successfully run travel app.
